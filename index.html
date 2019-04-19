@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Floral Apocalypse</title>
+<link href="style.css" rel="stylesheet">
+</head>
+    
+<body>
+    <div id="p5_loading"><p>Rose Valley Game Jam appreciate your patience!</p></div>
+    <div id="canvasContainer"></div><!-- Used so that the pop up instruction will be displayed above the canvas. -->
+             
+    <div id="tutorialSpace" style="display: none">    
+        <div id="tutorialSpaceHeader">Background</div>
+        <div id="deleteButton" onclick="hideTutorialSpace()">X</div><br>
+        <div id="tutorialText">
+            <p>On the 4th day of the 5th month of 2035, a normal night on a normal day seemed to have something amiss. Overnight, all the rose bushes in the world had suddenly grown to enormous heights. With their new growth, they gained a weird toxin which began to spread to the humans of the world. Many people fell victim to the infectious toxin and turned into mutated rose zombies. The few humans that weren’t affected now survive in the wasteland that is Earth, against the ever increasing amount of rose zombies. </p>      
+            <button class="nextButton" onclick="displayNextSlide()">Right arrow: <i class="arrow right"></i></button>
+        </div>    
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="p5/p5.min.js"></script>
+    <script src="p5/p5.play.js"></script>
+    <script src="p5/p5.dom.js"></script>
+    <script src="p5/p5.collide2d.min.js"></script>
+     <script src="p5/p5.sound.js"></script>
+    <script src="khai.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
